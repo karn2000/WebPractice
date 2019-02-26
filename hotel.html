@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="vendor/css/grid.css" />
+    <link rel="stylesheet" type="text/css" href="vendor/css/ionicons.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="resources/css/stylehotel.css"
+    />
+    <link rel="stylesheet" type="text/css" href="vendor/css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="vendor/css/lightbox.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400"
+      rel="stylesheet"
+    />
+
+    <title>Hoteling</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="header">
+        <div class="logo">Hoteling</div>
+        <div>
+          <a href="#" class="btn btn-1">Sign up</a>
+          <a href="#" class="btn btn-2">Login</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="section-search">
+      <div class="row">
+        <h1>Find hotels, resorts and more!</h1>
+        <div class="search-tab">
+          <form action="#">
+            <input type="text" placeholder="Destination" />
+            <label for="date">from</label>
+            <input type="date" />
+            <label for="date">to</label>
+            <input type="date" />
+            <label for="person">travelers</label>
+            <input type="text" placeholder="1 adult(s)" />
+            <input type="button" value="Search" />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-hotel-list">
+      <div class="row">
+        <div class="grid-list">
+          <div class="filter">
+            <h2>Filter by:</h2>
+            <div class="filter-list">
+              <h3>Price <span>(per night)</span></h3>
+              <input type="checkbox" name="price" id="" />
+              <span>THB 0 - THB 1500</span><br />
+              <input type="checkbox" name="price" id="" />
+              <span>THB 1500 - THB 3000</span><br />
+              <input type="checkbox" name="price" id="" />
+              <span>THB 3000 - THB 4500</span><br />
+              <input type="checkbox" name="price" id="" />
+              <span>THB 4500 - THB 7000</span><br />
+              <input type="checkbox" name="price" id="" />
+              <span>THB 7000 +</span><br />
+            </div>
+            <div class="filter-list">
+              <h3>Room offer</h3>
+              <input type="checkbox" name="offer" id="" />
+              <span>Breakfast Included</span><br />
+              <input type="checkbox" name="offer" id="" />
+              <span>Early Check-in</span><br />
+              <input type="checkbox" name="offer" id="" />
+              <span>Airport Transfer</span><br />
+            </div>
+            <div class="filter-list">
+              <h3>Property facilities</h3>
+              <input type="checkbox" name="fac" id="" />
+              <span>Internet</span><br />
+              <input type="checkbox" name="fac" id="" />
+              <span>Car park</span><br />
+              <input type="checkbox" name="fac" id="" />
+              <span>Swimming pool</span><br />
+              <input type="checkbox" name="fac" id="" />
+              <span>24 hours Front desk</span><br />
+              <input type="checkbox" name="fac" id="" />
+              <span>Restaurant</span><br />
+            </div>
+            <div class="filter-list">
+              <h3>Property type</h3>
+              <input type="checkbox" name="prop-type" id="" />
+              <span>Apartment</span><br />
+              <input type="checkbox" name="prop-type" id="" />
+              <span>Hotel</span><br />
+              <input type="checkbox" name="prop-type" id="" />
+              <span>Ryokan</span><br />
+              <input type="checkbox" name="prop-type" id="" />
+              <span>Resort</span><br />
+              <input type="checkbox" name="prop-type" id="" />
+              <span>Capsule Hotel</span><br />
+            </div>
+          </div>
+          <div class="hotel-list">
+            <div class="hotel-card">
+              <div class="hotel-img">
+                <img
+                  src="https://images.unsplash.com/photo-1532408840957-031d8034aeef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1190&q=80"
+                  alt=""
+                />
+              </div>
+              <div class="hotel-content">
+                <div class="hotel-card-firstrow">
+                  <h4>
+                    Hotel Name<span>⭐⭐⭐</span><br />
+                    <p>Shinbashi, Tokyo</p>
+                  </h4>
+                  <div class="rating">8.9</div>
+                </div>
+                <div class="hotel-des">
+                  <p>Booked 5 times in the last 12 hours</p>
+                </div>
+                <div class="pricerow">
+                  <h4>1500 THB</h4>
+                  <input type="button" value="More details" />
+                </div>
+              </div>
+            </div>
+            <div class="hotel-card">
+              <div class="hotel-img">
+                <img
+                  src="https://images.unsplash.com/photo-1532408840957-031d8034aeef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1190&q=80"
+                  alt=""
+                />
+              </div>
+              <div class="hotel-content">
+                <div class="hotel-card-firstrow">
+                  <h4>
+                    Hotel Name<span>⭐⭐⭐</span><br />
+                    <p>Shinbashi, Tokyo</p>
+                  </h4>
+                  <div class="rating">8.9</div>
+                </div>
+                <div class="hotel-des">
+                  <p>Booked 5 times in the last 12 hours</p>
+                </div>
+                <div class="pricerow">
+                  <h4>1500 THB</h4>
+                  <input type="button" value="More details" />
+                </div>
+              </div>
+            </div>
+            <div class="hotel-card">
+              <div class="hotel-img">
+                <img
+                  src="https://images.unsplash.com/photo-1532408840957-031d8034aeef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1190&q=80"
+                  alt=""
+                />
+              </div>
+              <div class="hotel-content">
+                <div class="hotel-card-firstrow">
+                  <h4>
+                    Hotel Name<span>⭐⭐⭐</span><br />
+                    <p>Shinbashi, Tokyo</p>
+                  </h4>
+                  <div class="rating">8.9</div>
+                </div>
+                <div class="hotel-des">
+                  <p>Booked 5 times in the last 12 hours</p>
+                </div>
+                <div class="pricerow">
+                  <h4>1500 THB</h4>
+                  <input type="button" value="More details" />
+                </div>
+              </div>
+            </div>
+            <div class="hotel-card">
+              <div class="hotel-img">
+                <img
+                  src="https://images.unsplash.com/photo-1532408840957-031d8034aeef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1190&q=80"
+                  alt=""
+                />
+              </div>
+              <div class="hotel-content">
+                <div class="hotel-card-firstrow">
+                  <h4>
+                    Hotel Name<span>⭐⭐⭐</span><br />
+                    <p>Shinbashi, Tokyo</p>
+                  </h4>
+                  <div class="rating">8.9</div>
+                </div>
+                <div class="hotel-des">
+                  <p>Booked 5 times in the last 12 hours</p>
+                </div>
+                <div class="pricerow">
+                  <h4>1500 THB</h4>
+                  <input type="button" value="More details" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="vendor/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/script.js"></script>
+    <script src="resources/js/private.js"></script>
+    <script src="resources/js/privateq.js"></script>
+    <script src="vendor/js/lightbox.js"></script>
+  </body>
+</html>
+
+<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. -->
